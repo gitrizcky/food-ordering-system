@@ -4,37 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3647a11c-0281-4d88-8072-0085d4ee73fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-container/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-container/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-messaging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-messaging/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="3647a11c-0281-4d88-8072-0085d4ee73fb" name="Changes" comment="Order Service Module Dependency Inversion status OK">
+      <change afterPath="$PROJECT_DIR$/common/common-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/entity/AgregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/event/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/BaseId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/CustomerId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/OrderId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/org/food/ordering/system/domain/valueobject/RestaurantId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2MPCWvZEH0aVEcQeC8f1C3E8yZw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -54,7 +68,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +84,30 @@
       <workItem from="1677660730445" duration="68000" />
       <workItem from="1677660858961" duration="230000" />
       <workItem from="1677667344921" duration="4490000" />
+      <workItem from="1677729545218" duration="6160000" />
     </task>
+    <task id="LOCAL-00001" summary="Order Service Module Dependency Inversion status OK">
+      <created>1677729708516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677729708516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Order Service Module Dependency Inversion status OK">
+      <created>1677729867375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677729867375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Order Service Module Dependency Inversion status OK">
+      <created>1677734924470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677734924470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +123,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Order Service Module Dependency Inversion status OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order Service Module Dependency Inversion status OK" />
   </component>
 </project>
