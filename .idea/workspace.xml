@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3647a11c-0281-4d88-8072-0085d4ee73fb" name="Changes" comment="Adding Value Objects and domain events to common domain module OK" />
+    <list default="true" id="3647a11c-0281-4d88-8072-0085d4ee73fb" name="Changes" comment="Adding Value Objects and domain events to common domain module OK">
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/food/ordering/system/order/service/domain/OrderDomainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/food/ordering/system/order/service/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/org/food/ordering/system/order/service/domain/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,7 +83,7 @@
       <workItem from="1677667344921" duration="4490000" />
       <workItem from="1677729545218" duration="6160000" />
       <workItem from="1677801587812" duration="2378000" />
-      <workItem from="1677840591493" duration="2107000" />
+      <workItem from="1677840591493" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="Order Service Module Dependency Inversion status OK">
       <created>1677729708516</created>
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677842816967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Value Objects and domain events to common domain module OK">
+      <created>1677843046115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843046115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
